@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oscar Terrones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TerroRestaurant</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menus">Platos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="py-5" style="padding:0.3rem;">
+      <section id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height: 100%;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner" style="height: 100%;">
+          <div class="carousel-item active" data-bs-interval="3000"><!--los segundos que cambia la imagen-->
+            <img src="img/Terro_(1)-transformed.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark p-2 text-light bg-opacity-25">
+              <h5>TerroRestaurant</h5>
+              <a class="btn btn-success" href="https://wa.me/15551012267" target="_blank">comunicate al whatsap</a>
+              <p>Llegamos a tu corazón mediante el paladar</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000"><!--los segundos que cambia la imagen-->
+            <img src="https://traveler.marriott.com/es/wp-content/uploads/sites/2/2022/05/GI-1192368467-Ceviche-1920x1080.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark p-2 text-light bg-opacity-25">
+              <h5>TerroRestaurant</h5>
+              <a class="btn btn-success" href="https://wa.me/15551012267" target="_blank">comunicate al whatsap</a>
+              <p>Llegamos a tu corazón mediante el paladar</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://e26hu7n6uru.exactdn.com/wp-content/uploads/2021/03/aji-de-gallina.jpg?strip=all&lossy=1&ssl=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark p-2 text-light bg-opacity-25">
+              <h5>TerroRestaurant</h5>
+              <a class="btn btn-success" href="https://wa.me/15551012267" target="_blank">comunicate al whatsap</a>
+              <p>Llegamos a tu corazón mediante el paladar</p>
+            </div>
+  
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://andeantravel.net/wp-content/uploads/2017/10/lomo-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block bg-dark p-2 text-light bg-opacity-25">
+              <h5>TerroRestaurant</h5>
+              <a class="btn btn-success" href="https://wa.me/15551012267" target="_blank">comunicate al whatsap</a>
+              <p>Llegamos a tu corazón mediante el paladar</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section class="py-5" id="menus">
+          <div class="row g-4 mx-auto  container ">
+            <!--el total de columnas es 12-->
+            <div class="col-md-4">
+              <article class="card bg-dark text-white">
+                <img src="https://latinanoticias.pe/wp-content/uploads/2023/09/CEVICHE-1280x720.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ceviche</h5>
+                  <p class="card-text">"Sumérgete en la frescura y el sabor del auténtico ceviche."</p>
+                  <a href="#" class="btn btn-primary">Ir al Inicio</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card bg-dark text-white" >
+                <img src="https://movistarplus.pe/wp-content/uploads/sites/3/2022/07/NW-15.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lomo Saltado</h5>
+                  <p class="card-text">"Me gustaría ser papa frita,
+                    para acompañar ese lomo"</p>
+                  <a href="#" class="btn btn-primary">Ir al Inicio</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card bg-dark text-white">
+                <img src="https://i.ytimg.com/vi/-0Gm9dJZqBc/maxresdefault.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Aji de Gallina</h5>
+                  <p class="card-text">"Entre gustos y colores, reinan los sabores."</p>
+                  <a href="#" class="btn btn-primary">Ir al Inicio</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card bg-dark text-white">
+                <img src="https://i.ytimg.com/vi/Rv3Zw0i6Onc/maxresdefault.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Brosther</h5>
+                  <p class="card-text">"La comida rápida es la elección de personas fieles"</p>
+                </div>
+                <div  style="padding:1rem;">
+                  <a href="#" class="btn btn-primary">Ir al Inicio</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card bg-dark text-white" >
+                <img src="https://i.ytimg.com/vi/rMsbGQ2xw-M/maxresdefault.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Seco de Res</h5>
+                  <p class="card-text">"Los mejores recuerdos van junto a un buen aperitivo."</p>
+                  </div>
+                <div  style="padding:1rem;">
+                  <a href="#" class="btn btn-primary">Ir al Inicio</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card bg-dark text-white" >
+                <img src="https://i.ytimg.com/vi/H6lgxgEWIs8/maxresdefault.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Arroz con Pollo</h5>
+                  <p class="card-text">"Un estómago vacío es el enemigo del buen humor."</p>
+                </div>
+                <div  style="padding:1rem;">
+                  <a href="#" class="btn btn-primary">Ir al Inicio</a>
+                </div>
+              </article>
+            </div> 
+          </div>
+
+      </section>
+      <section class="py-5">
+      <div class="row g-4 container mx-auto">
+        <article class="col-md-6">
+          <div class="card bg-dark text-white">
+            <img src="https://blog.redbus.pe/wp-content/uploads/2019/12/0-1280x720.jpg"
+              class="card-img opacity-50" alt="Portada de tarjeta">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Chicha Morada</h5>
+              <p class="card-text">"El refresco es amor en verano"</p>
+              
+            </div>
+          </div>
+        </article>
+        <article class="col-md-6">
+          <div class="card bg-dark text-white">
+            <img src="https://i.ytimg.com/vi/f9gE_joW1AU/maxresdefault.jpg" class="card-img opacity-50"
+              alt="Portada de tarjeta">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cerveza Pilsen</h5>
+              <p class="card-text">"Ayudando a la gente a tener relaciones sexuales desde 1863" </p>
+              
+            </div>
+          </div>
+        </article>
+        <article class="col-md-6">
+          <div class="card bg-dark text-white">
+            <img src="https://static.wixstatic.com/media/9755d8_56e64669f0d5405aa316bead2de60a11~mv2.webp/v1/fill/w_1280,h_720,al_c/9755d8_56e64669f0d5405aa316bead2de60a11~mv2.webp" class="card-img opacity-50"
+              alt="Portada de tarjeta">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Limonada Frozen</h5>
+              <p class="card-text">"La mejor bebida en verano"</p>
+              
+            </div>
+          </div>
+        </article>
+        <article class="col-md-6">
+          <div class="card bg-dark text-white">
+            <img src="https://i.pinimg.com/originals/e9/e3/56/e9e356f6b404f1dbe0f15d8c282e057f.jpg" class="card-img opacity-50" alt="Portada de tarjeta">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Chicha de Jora</h5>
+              <p class="card-text">"Tomemos un nuevo sorbo"</p>
+              
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <a href="https://wa.me/15551012267" class="fixed-button" target="_blank"><img class="wsp" src="img/wsp.ico" alt="watsap"></a>
+    </main>
+    
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #6351ce"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>visitenos en nuestras diferentes páginas</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/TerroRestorant" class="text-white me-4 text-decoration-none" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4 text-decoration-none">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4 text-decoration-none">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/terro-restaurant-58a48029a/" target="_blank" class="text-white me-4 text-decoration-none">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">terroRestaurant</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              SOMOS UNA INDUSTRIA DE COMIDA QUE INTENTA LLEGAR A TU CORAZÓN POR
+              MEDIO DEL PALADAR
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Productos</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white text-decoration-none">Menu con entrada</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white text-decoration-none">Menu a la carta</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white text-decoration-none">Bebidas sin alcohol</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white text-decoration-none">Bebidas con alcohol</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contactanos</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Independencia, av 10012</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@terro.com</p>
+            <p><i class="fas fa-phone mr-3"></i>+51 999999999</p>
+            <p><i class="fas fa-print mr-3"></i>+51 985476321</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white text-decoration-none" href="https://mdbootstrap.com/"
+         >grupo02</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+</body>
+</html>
